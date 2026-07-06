@@ -1,0 +1,120 @@
+* {
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ list-style: none;
+}
+html {
+ background: #fff;
+}
+.container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+#header {
+ padding-block: 50px;
+ .header {
+  display: flex;
+  justify-content: space-between;
+  .left {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   nav {
+    display: flex;
+    gap: 30px;
+    a {
+     color: #222222;
+     font-size: 15px;
+     font-weight: 400;
+    }
+   }
+  }
+  .right {
+   button {
+    width: 144px;
+    height: 40px;
+    background: #2f2f2f;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+   }
+  }
+ }
+}
+#experience {
+ padding-block: 30px;
+ .experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .text {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   h3 {
+    color: #82cbac;
+    font-weight: 400;
+    font-size: 13px;
+   }
+   h1 {
+    color: #2f2f2f;
+    font-weight: 400;
+    font-size: 64px;
+   }
+   p {
+    color: #2f2f2f;
+    font-weight: 400;
+    font-size: 17px;
+   }
+  }
+  .photo{
+    img{
+        width: 100%;
+        max-width: 600px
+    }
+  }
+ }
+}
+@media (max-width: 768px) {
+  .experience {
+    flex-direction: column;   
+    text-align: center;       
+    gap: 30px;            
+  }
+
+  .text {
+    align-items: center;    
+  }
+
+  h1 {
+    font-size: 36px;         
+  }
+}
+
+#our_work{
+  .work{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .work_content{
+      span{
+
+      }
+      h4{
+
+      }
+      p{
+        
+      }
+    }
+    .work_image{
+    img{
+      git remote add origin https://github.com/kutmanturarov2-gif/CodX.git
+    }
+    }
+  }
+}
